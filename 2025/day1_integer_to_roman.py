@@ -1,3 +1,7 @@
+# Runtime : 6ms (Beats 47.8%)
+# Memory : 17.67 (Beats 91.52%)
+
+
 def intToRoman(num: int) -> str:
     d = [("I", 1), ("V", 5), ("X", 10), ("L", 50), ("C", 100), ("D", 500), \
         ("M", 1000)]
@@ -31,13 +35,3 @@ def intToRoman(num: int) -> str:
                 
     return roman
 
-print(intToRoman(1))
-print(intToRoman(2347))
-print(intToRoman(3999))
-print(intToRoman(2024))
-print(intToRoman(1984))
-print(intToRoman(999))
-print(intToRoman(944))
-print(intToRoman(900))
-print(intToRoman(490))
-print(intToRoman(17))
